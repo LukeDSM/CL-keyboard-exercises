@@ -1,13 +1,33 @@
-(defparameter rooms 
-  '((library (east upstairs-bedroom) (south back-stairs))
-    (back-stairs (north library) (south downstairs-bedroom))
-    (downstairs-bedroom (north back-stairs) (east dining-room))
-    (upstairs-bedroom (west library) (south front-stairs))
-    (front-stairs (north upstairs-bedroom) (south living-room))
-    (living-room (north front-stairs) (east kitchen) (south dining-room))
-    (dining-room (north living-room) (west downstairs-bedroom) (east pantry))
-    (kitchen (west living-room) (south pantry))
-    (pantry (north kitchen) (west dining-room))))
+(defparameter rooms
+  '((living-room
+      (north front-stairs)
+      (south dining-room)
+      (east kitchen))
+    (upstairs-bedroom
+      (west library)
+      (south front-stairs))
+    (dining-room
+      (north living-room)
+      (east pantry)
+      (west downstairs-bedroom))
+    (kitchen
+      (west living-room)
+      (south pantry))
+    (pantry
+      (north kitchen)
+      (west dining-room))
+    (downstairs-bedroom
+      (north back-stairs)
+      (east dining-room))
+    (back-stairs
+      (south downstairs-bedroom)
+      (north library))
+    (front-stairs
+      (north upstairs-bedroom)
+      (south living-room))
+    (library
+      (east upstairs-bedroom)
+      (south back-stairs))))
 
 (defun choices (room)
   (rest (assoc room rooms)))
