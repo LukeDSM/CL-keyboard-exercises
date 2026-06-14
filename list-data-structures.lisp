@@ -63,5 +63,5 @@
 (defun move (dir)
   (let ((path (look dir loc)))
     (if path
-    (progn (set-robbie-location path) (where))
-    (format t "OUCH, ROBBIE HIT A WALL"))))
+        (progn (set-robbie-location path) (where))
+        (format t "OUCH, ROBBIE HIT A WALL"))))
