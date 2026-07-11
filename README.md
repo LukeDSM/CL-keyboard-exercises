@@ -1,6 +1,6 @@
 # CL-keyboard-exercises
 ## My solutions to the keyboard exercises in [Common Lisp: A Gentle Introduction to Symbolic Computation](https://www.cs.cmu.edu/~dst/LispBook/)
-Note: My solutions may or may not follow the learning path, for example I may use `() instead of (list).
+Note: Problem solutions may not follow learning path
 
 * Chapter  1 - **Functions and Data**
 * Chapter  2 - **Lists**
