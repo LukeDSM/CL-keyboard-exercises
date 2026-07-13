@@ -1,9 +1,7 @@
 # CL-keyboard-exercises
 ## My solutions to the keyboard exercises in [Common Lisp: A Gentle Introduction to Symbolic Computation](https://www.cs.cmu.edu/~dst/LispBook/)
-Note: Problem solutions may not follow learning path
+Note: Problem solutions may not follow intended learning path
 
-* Chapter  1 - **Functions and Data**
-* Chapter  2 - **Lists**
 * Chapter  3 - **EVAL Notation**
 * Chapter  4 - **Conditionals**
 * Chapter  5 - **Variables and Side Effects**
